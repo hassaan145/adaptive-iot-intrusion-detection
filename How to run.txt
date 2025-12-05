@@ -1,0 +1,30 @@
+How to Run the Code:
+
+1. Open Google Colab.
+2. Create a new notebook.
+3. Enable GPU by going to:
+
+		Runtime → Change runtime type → Hardware accelerator → GPU
+
+
+4. Mount Google Drive by running:
+
+		from google.colab import drive
+		drive.mount('/content/drive')
+
+
+5. Make sure the dataset files KDDTrain+.txt and KDDTest+.txt are stored in your Drive inside a folder named:
+
+		/content/drive/MyDrive/nsl-kdd/
+
+
+6. Install required packages by running:
+
+!pip install numpy pandas scikit-learn matplotlib
+
+
+7. Copy and paste the full Python code into the notebook.
+8. Run the code from top to bottom in the notebook.
+9. The PSO feature selection will run first.
+10.Then the main deep learning model will train.
+11.After training is complete, the accuracy results and the performance comparison plot will be displayed.
