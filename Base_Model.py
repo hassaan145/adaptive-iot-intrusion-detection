@@ -1,5 +1,5 @@
 
-# -------------------- Mount Drive (uncomment if needed) --------------------
+# ------------------- Mount Drive (uncomment if needed) -------------------
 from google.colab import drive
 drive.mount('/content/drive', force_remount=False)
 
